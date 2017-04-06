@@ -15,7 +15,7 @@ Examples are provided as a set of LabVIEW vi and llb files grouped by driver nam
 
 **Notes:** 
 
-* LabVIEW 9.0 is required or PicoScope oscilloscope rapid block bulk examples e.g. PicoScope2000aExampleRapidBlockBulkMSO.vi
+* LabVIEW 9.0 is required for PicoScope oscilloscope rapid block bulk examples e.g. PicoScope2000aExampleRapidBlockBulkMSO.vi
 
 ### Installing drivers
 
@@ -35,7 +35,7 @@ Please visit our [Support page](https://www.picotech.com/tech-support) to contac
 
 ## Copyright and licensing 
 
-picosdk-ni-labview-examples is Copyright (C) 2017 Pico Technology Ltd. All rights reserved. See LICENSE.md for license terms.
+picosdk-ni-labview-examples is Copyright (C) 2017 Pico Technology Ltd. All rights reserved. See [LICENSE.md](LICENSE.md) for license terms.
 
 *PicoScope* and *PicoLog* are registered trademarks of Pico Technology Ltd. 
 
