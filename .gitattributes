@@ -1,0 +1,4 @@
+# .gitattributes file for picosdk-ni-labview-examples
+
+*.vi linguist-language=LabVIEW
+*.llb linguist-language=LabVIEW
