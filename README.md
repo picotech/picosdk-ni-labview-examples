@@ -10,12 +10,11 @@ Examples are provided as a set of LabVIEW vi and llb files grouped by driver nam
 
 #### Microsoft Windows
 
-* National Instruments LabVIEW 8.5 or later for 32-bit examples.
-* National Instruments LabVIEW 9.0 or later for 64-bit examples.
+* National Instruments LabVIEW 9.0 or later (32-bit or 64-bit)
 
 **Notes:** 
 
-* LabVIEW 9.0 is required for PicoScope oscilloscope rapid block bulk examples e.g. PicoScope2000aExampleRapidBlockBulkMSO.vi
+* Most examples can be opened with LabVIEW 8.5 versions.
 
 ### Installing drivers
 
