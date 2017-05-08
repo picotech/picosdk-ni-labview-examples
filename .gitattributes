@@ -1,4 +1,9 @@
 # .gitattributes file for picosdk-ni-labview-examples
 
+# Set language for files
 *.vi linguist-language=LabVIEW
 *.llb linguist-language=LabVIEW
+
+# Register as binary files
+*.vi -crlf -diff -merge
+*.llb -crlf -diff -merge
