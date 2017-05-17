@@ -1,11 +1,11 @@
 ### Setup
 
-* Example filename								:
-* Version of LabVIEW (32/64-bit & Service Pack)	:
-* Pico Technology device model					:
-* Driver name and version number				:
-* Operating system								:
-* USB port type	(e.g. 2.0)						:
+* Example filename:
+* Version of LabVIEW (32/64-bit & Service Pack):
+* Pico Technology device model:
+* Driver name and version number:
+* Operating system:
+* USB port type	(e.g. 2.0):
 
 ### Description
 
