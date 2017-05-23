@@ -6,9 +6,9 @@ We welcome contributions to the picosdk-ni-labview-examples repository. By contr
 
 1. Fork, then clone the repository:
 
-'''
+```
 git clone https://github.com/YOUR-USERNAME/picosdk-ni-labview-examples.git
-'''
+```
 
 2. Create a new branch - specify a name in lowercase, using hyphens to link words e.g. `fft-example`
 
