@@ -18,7 +18,7 @@ We will then review the pull request.
 
 ## Pull request guidelines
 
-* Include a label in each vi indicagting the author name, date and description of 
-* If contributing a new file, ensure that it is in the correct sub-folder for the driver e.g. ps5000a/32-bit-examples or ps5000a/64-bit-examples
+* Include a label in each vi indicating the author name, date and description of the file if new, or change
+* If contributing a new file, ensure that it is in the correct `32-bit-examples` or `64-bit-examples` sub-folder for the driver depending on the version of LabVIEW being used
 * Files should be saved for LabVIEW 8.5
 * [Commit messages](https://chris.beams.io/posts/git-commit/#seven-rules) should clearly communicate the reason for the change
