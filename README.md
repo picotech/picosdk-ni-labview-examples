@@ -16,6 +16,10 @@ Examples are provided as a set of LabVIEW vi and llb files grouped by driver nam
 
 * Most examples can be opened with LabVIEW Base Development System 8.5 versions.
 
+### Example dependencies
+
+Some example vi files require common sub-vi files (e.g. PicoScopeAdcToVolts.vi for conversion of ADC counts to volts) which can be located in the shared/PicoScope.llb file.
+
 ### Installing drivers
 
 Drivers are available via a separate driver package installer.
