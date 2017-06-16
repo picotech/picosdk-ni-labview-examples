@@ -1,6 +1,6 @@
 # picosdk-ni-labview-examples
 
-picosdk-ni-labview-examples is a set of National Instruments LabVIEW examples for PicoScope oscilloscope and PicoLog data logger products.
+*picosdk-ni-labview-examples* is a set of National Instruments LabVIEW examples for PicoScope oscilloscope and PicoLog data logger products.
 
 Examples are provided as a set of LabVIEW vi and llb files grouped by driver name, with sub-folders for 32-bit and 64-bit examples.
 
@@ -10,11 +10,11 @@ Examples are provided as a set of LabVIEW vi and llb files grouped by driver nam
 
 #### Microsoft Windows
 
-* National Instruments LabVIEW 9.0 or later (32-bit or 64-bit)
+* National Instruments LabVIEW Base Development System 9.0 or later (32-bit or 64-bit)
 
 **Notes:** 
 
-* Most examples can be opened with LabVIEW 8.5 versions.
+* Most examples can be opened with LabVIEW Base Development System 8.5 versions.
 
 ### Installing drivers
 
