@@ -1,6 +1,6 @@
 # Contributing
 
-We welcome contributions to the picosdk-ni-labview-examples repository. By contributing to this repository, you agree to abide by our [code of conduct](CONDUCT_OF_CONDUCT.md).
+We welcome contributions to the picosdk-ni-labview-examples repository. By contributing to this repository, you agree to abide by our [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Steps to contribute
 
