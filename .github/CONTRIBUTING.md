@@ -18,7 +18,7 @@ We will then review the pull request.
 
 ## Pull request guidelines
 
-* Include a label in each vi indicating the author name, date and description of the file if new, or change
+* Include a label in each vi indicating the author name, date, and description of new file (or of change to existing file)
 * If contributing a new file, ensure that it is in the correct `32-bit-examples` or `64-bit-examples` sub-folder for the driver depending on the version of LabVIEW being used
 * Files should be saved for LabVIEW 8.5
 * [Commit messages](https://chris.beams.io/posts/git-commit/#seven-rules) should clearly communicate the reason for the change
