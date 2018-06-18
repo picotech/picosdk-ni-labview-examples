@@ -1,6 +1,6 @@
 # picosdk-ni-labview-examples
 
-*picosdk-ni-labview-examples* is a set of National Instruments LabVIEW examples for PicoScope oscilloscope and PicoLog data logger products.
+*picosdk-ni-labview-examples* is a set of National Instruments LabVIEW examples for PicoScope<sup>®</sup> oscilloscope and PicoLog<sup>®</sup> data logger products.
 
 Examples are provided as a set of LabVIEW vi and llb files grouped by driver name, with sub-folders for 32-bit and 64-bit examples.
 
@@ -50,5 +50,5 @@ See [LICENSE.md](LICENSE.md) for license terms.
 
 *LabVIEW* is a registered trademark of National Instruments Corporation.
 
-Copyright © 2005-2017 Pico Technology Ltd. All rights reserved.
+Copyright © 2005-2018 Pico Technology Ltd. All rights reserved.
 
