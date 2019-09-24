@@ -1,3 +1,4 @@
 [submodule "shared"]
 	path = shared
+	branch = master
 	url = https://github.com/picotech/picosdk-ni-labview-shared
