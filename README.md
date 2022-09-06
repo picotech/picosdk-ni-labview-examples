@@ -41,7 +41,12 @@ Please visit our [Support page](https://www.picotech.com/tech-support) to contac
 
 Contributions are welcome. Please refer to our [guidelines for contributing](.github/CONTRIBUTING.md) for further information.
 
-## Copyright and licensing 
+## Contributions (excluding merged requests)
+
+Code and ideas used for memory pointers used with 5000a streaming example-
+https://github.com/picotech/picosdk-ni-labview-examples/pull/2/commits/c943c29d1e697c0e4a6fb1d5e91bb4a77d0d82e7
+
+## Copyright and licensing
 
 See [LICENSE.md](LICENSE.md) for license terms.
 
@@ -51,5 +56,5 @@ See [LICENSE.md](LICENSE.md) for license terms.
 
 *LabVIEW* is a registered trademark of National Instruments Corporation.
 
-Copyright © 2005-2021 Pico Technology Ltd. All rights reserved.
+Copyright © 2005-2022 Pico Technology Ltd. All rights reserved.
 
