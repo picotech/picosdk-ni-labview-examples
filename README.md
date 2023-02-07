@@ -25,9 +25,28 @@ If downloading files or the repository zip file you will need to download the co
 
 Drivers are available via a separate driver package installer.
 
+Wrappers binaries are available via a separate git repository.
+*Note wrapper dll's are are only required for streaming or PicoConnect/Intelligent Probe examples.*
+
 #### Windows
 
-* Download the PicoSDK (32-bit or 64-bit) driver package installer from our [Downloads page](https://www.picotech.com/downloads).
+* Download and install the PicoSDK (32-bit or 64-bit) driver installer from our [Downloads page](https://www.picotech.com/downloads).
+
+* Download the PicoSDK driver wrapper dll's (contains both 32-bit and 64-bit files). Contents can be downloaded as a zip file [here](https://github.com/picotech/picosdk-c-wrappers-binaries/archive/refs/heads/master.zip).
+
+Unzip the package.
+
+For 32-bit LabVIEW-
+
+Copy the contents of the folder `Windows 32-bit` into location of the SDK dll files-
+
+`C:\Program Files (x86)\Pico Technology\SDK\lib`
+
+For 64-bit LabVIEW-
+
+Copy the contents of the folder `Windows 64-bit` into location of the SDK dll files-
+
+`C:\Program Files\Pico Technology\SDK\lib`
 
 ### Programmer's Guides
 
@@ -56,5 +75,5 @@ See [LICENSE.md](LICENSE.md) for license terms.
 
 *LabVIEW* is a registered trademark of National Instruments Corporation.
 
-Copyright © 2005-2022 Pico Technology Ltd. All rights reserved.
+Copyright © 2005-2023 Pico Technology Ltd. All rights reserved.
 
