@@ -1,0 +1,195 @@
+;---------------------------------------------------------------;
+; PICOWINUSB.INF
+;	-Installs winusb support for Pico USB devices;
+;
+; Copyright © 1995-2021, Pico Technology Ltd
+;
+;	www.picotech.com    www.picoauto.com	www.drdaq.com
+;
+;---------------------------------------------------------------;
+
+[Version]
+Signature = "$Windows NT$"
+Class = DataAcquisitionDevices
+ClassGuid = {745DD1A8-FCA4-4659-9DF2-954176705158}
+Provider = %Pico%
+CatalogFile=picowinusb.cat
+PnpLockdown=1
+DriverVer=12/09/2021,2.0.11.2
+
+; ========== Manufacturer/Models sections ===========
+
+[Manufacturer]
+%Pico%=PicoDevices,NTx86,NTamd64,NTIA64,NTarm64
+
+[PicoDevices.NTx86]
+%USB\VID_0CE9&PID_100C.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100C
+%USB\VID_0CE9&PID_100E.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100E
+%USB\VID_0CE9&PID_1011.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1011
+%USB\VID_0CE9&PID_100B.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100B
+%USB\VID_0CE9&PID_1012.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1012
+%USB\VID_0CE9&PID_1013.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1013
+%USB\VID_0CE9&PID_1014.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1014
+%USB\VID_0CE9&PID_1015.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1015
+%USB\VID_0CE9&PID_1016.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1016
+%USB\VID_0CE9&PID_1017.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1017
+%USB\VID_0CE9&PID_FFF0.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_FFF0
+%USB\VID_0CE9&PID_1019.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1019
+%USB\VID_0CE9&PID_1600.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1600
+%USB\VID_0CE9&PID_1700.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1700
+
+[PicoDevices.NTamd64]
+%USB\VID_0CE9&PID_1000.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1000
+%USB\VID_0CE9&PID_1001.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1001
+%USB\VID_0CE9&PID_1003.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1003
+%USB\VID_0CE9&PID_1006.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1006
+%USB\VID_0CE9&PID_1007.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1007
+%USB\VID_0CE9&PID_1008.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1008
+%USB\VID_0CE9&PID_1009.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1009
+%USB\VID_0CE9&PID_100A.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100A
+%USB\VID_0CE9&PID_100B.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100B
+%USB\VID_0CE9&PID_100C.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100C
+%USB\VID_0CE9&PID_100D.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100D
+%USB\VID_0CE9&PID_100E.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100E
+%USB\VID_0CE9&PID_100F.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100F
+%USB\VID_0CE9&PID_1011.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1011
+%USB\VID_0CE9&PID_1012.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1012
+%USB\VID_0CE9&PID_1013.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1013
+%USB\VID_0CE9&PID_1014.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1014
+%USB\VID_0CE9&PID_1015.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1015
+%USB\VID_0CE9&PID_1016.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1016
+%USB\VID_0CE9&PID_1017.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1017
+%USB\VID_0CE9&PID_1019.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1019
+%USB\VID_0CE9&PID_1600.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1600
+%USB\VID_0CE9&PID_FFF0.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_FFF0
+%USB\VID_0CE9&PID_1700.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1700
+
+[PicoDevices.NTIA64]
+
+[PicoDevices.NTarm64]
+%USB\VID_0CE9&PID_1000.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1000
+%USB\VID_0CE9&PID_1001.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1001
+%USB\VID_0CE9&PID_1003.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1003
+%USB\VID_0CE9&PID_1006.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1006
+%USB\VID_0CE9&PID_1007.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1007
+%USB\VID_0CE9&PID_1008.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1008
+%USB\VID_0CE9&PID_1009.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1009
+%USB\VID_0CE9&PID_100A.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100A
+%USB\VID_0CE9&PID_100B.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100B
+%USB\VID_0CE9&PID_100C.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100C
+%USB\VID_0CE9&PID_100D.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100D
+%USB\VID_0CE9&PID_100E.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100E
+%USB\VID_0CE9&PID_100F.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_100F
+%USB\VID_0CE9&PID_1011.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1011
+%USB\VID_0CE9&PID_1012.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1012
+%USB\VID_0CE9&PID_1013.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1013
+%USB\VID_0CE9&PID_1014.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1014
+%USB\VID_0CE9&PID_1015.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1015
+%USB\VID_0CE9&PID_1016.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1016
+%USB\VID_0CE9&PID_1017.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1017
+%USB\VID_0CE9&PID_1019.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1019
+%USB\VID_0CE9&PID_1600.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1600
+%USB\VID_0CE9&PID_FFF0.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_FFF0
+%USB\VID_0CE9&PID_1700.DeviceDesc%=USB_Install, USB\VID_0CE9&PID_1700
+
+; ========== DataAcquisitionDevices Class ===========
+
+[ClassInstall32]
+AddReg=DevicesClass_RegistryAdd
+
+[DevicesClass_RegistryAdd]
+HKR,,,,%ClassName%
+HKR,,Icon,,"-20"
+
+; =================== Installation ===================
+
+[USB_Install]
+Include=winusb.inf
+Needs=WINUSB.NT
+
+[USB_Install.Services]
+Include=winusb.inf
+AddService=WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUIDs,0x00010000,"{15AD01F2-440D-4ca6-8867-3F9D1A960EAD}"
+HKR,,"RemovalPolicy",0x00010001,3
+
+[WinUSB_ServiceInstall]
+DisplayName     = %WinUSB_SvcDesc%
+ServiceType     = 1
+StartType       = 3
+ErrorControl    = 1
+ServiceBinary   = %12%\WinUSB.sys
+LoadOrderGroup = Base
+
+[USB_Install.Wdf]
+KmdfService=WINUSB, WinUsb_Install
+UmdfServiceOrder=WINUSB
+
+[WinUSB_Install]
+KmdfLibraryVersion=1.9
+
+[USB_Install.HW]
+AddReg=Dev_AddReg
+
+[USB_Install.CoInstallers]
+AddReg=CoInstallers_AddReg
+CopyFiles=CoInstallers_CopyFiles
+
+; =================== CoInstallers ===================
+
+[CoInstallers_AddReg]
+HKR,,CoInstallers32,0x00010000,"WudfUpdate_01009.dll","WinUsbCoinstaller2.dll","WdfCoInstaller01009.dll,WdfCoInstaller"
+
+[CoInstallers_CopyFiles]
+WudfUpdate_01009.dll
+WdfCoInstaller01009.dll
+WinUsbCoinstaller2.dll
+
+[DestinationDirs]
+CoInstallers_CopyFiles=11
+
+[SourceDisksFiles]
+WudfUpdate_01009.dll=1
+WdfCoInstaller01009.dll=1
+WinUsbCoinstaller2.dll=1
+
+[SourceDisksNames]
+1=,,,
+
+; =================== Strings ===================
+[Strings]
+Pico="Pico Technology Ltd"
+
+USB\VID_0CE9&PID_0100.DeviceDesc="Pico Parallel Port"
+USB\VID_0CE9&PID_1000.DeviceDesc="Pico USB TC-08"
+USB\VID_0CE9&PID_1001.DeviceDesc="PicoScope 3000 series PC Oscilloscope"
+USB\VID_0CE9&PID_1002.DeviceDesc="Pico USB ADC11"
+USB\VID_0CE9&PID_1003.DeviceDesc="Pico High Resolution Data Logger"
+USB\VID_0CE9&PID_1004.DeviceDesc="Blackbird"
+USB\VID_0CE9&PID_1005.DeviceDesc="Phantom"
+USB\VID_0CE9&PID_1006.DeviceDesc="Pico Humidiprobe"
+USB\VID_0CE9&PID_1007.DeviceDesc="PicoScope 2000 series PC Oscilloscope"
+USB\VID_0CE9&PID_1008.DeviceDesc="PicoScope 5000 series PC Oscilloscope"
+USB\VID_0CE9&PID_1009.DeviceDesc="PicoScope 4000 series PC Oscilloscope"
+USB\VID_0CE9&PID_100A.DeviceDesc="Epic"
+USB\VID_0CE9&PID_100B.DeviceDesc="PicoScope 9000 series Sampling Oscilloscope"
+USB\VID_0CE9&PID_100C.DeviceDesc="PicoLog 1000 series PC Data Logger"
+USB\VID_0CE9&PID_100D.DeviceDesc="Pico USB TC-08"
+USB\VID_0CE9&PID_100E.DeviceDesc="PicoScope 6000 series PC Oscilloscope"
+USB\VID_0CE9&PID_100F.DeviceDesc="PicoScope 4000 series PC Oscilloscope"
+USB\VID_0CE9&PID_1011.DeviceDesc="Pico USB PT-104"
+USB\VID_0CE9&PID_1012.DeviceDesc="PicoScope 3000 series PC Oscilloscope"
+USB\VID_0CE9&PID_1013.DeviceDesc="Pico Pulse Generator"
+USB\VID_0CE9&PID_1014.DeviceDesc="Pico USB DrDAQ"
+USB\VID_0CE9&PID_1015.DeviceDesc="PicoLog Current Monitoring"
+USB\VID_0CE9&PID_1016.DeviceDesc="PicoScope 2000 series PC Oscilloscope"
+USB\VID_0CE9&PID_1017.DeviceDesc="PicoScope 9300 PC Sampling Oscilloscope"
+USB\VID_0CE9&PID_1019.DeviceDesc="PicoScope 5000 series PC Oscilloscope"
+USB\VID_0CE9&PID_1600.DeviceDesc="PicoScope 9400 series Sampler Extended Oscilloscope"
+USB\VID_0CE9&PID_FFF0.DeviceDesc="Logic Analyser Testing Device"
+USB\VID_0CE9&PID_1700.DeviceDesc="Pico Milliohm Tester"
+
+WinUSB_SvcDesc="WinUSB driver"
+ClassName="Pico Technology instruments"
