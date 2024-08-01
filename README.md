@@ -48,6 +48,9 @@ Copy the contents of the folder `Windows 64-bit` into location of the SDK dll fi
 
 `C:\Program Files\Pico Technology\SDK\lib`
 
+#### Note the following drivers/APIs are 64-bit only
+psospa
+
 ### Programmer's Guides
 
 You can download Programmer's Guides providing a description of the API functions for the relevant PicoScope or PicoLog driver from our [Documentation page](https://www.picotech.com/library/documentation).
