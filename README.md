@@ -20,6 +20,8 @@ Examples are provided as a set of LabVIEW vi and llb files grouped by driver nam
 
 Some example vi files require common sub-vi files (e.g. PicoScopeAdcToVolts.vi for conversion of ADC counts to volts) which can be located in the shared folder.
 If downloading files or the repository zip file you will need to download the contents of the shared folder directly from https://github.com/picotech/picosdk-ni-labview-shared. As this is a sub module.
+If using Git the command is-
+`git submodule update --init --recursive`
 
 ### Installing drivers
 
