@@ -1,0 +1,9 @@
+Note there are two RapidBlock examples-
+
+PicoScope4000ExampleRapidBlockBulk.vi
+-Calls ps4000GetVaulesBulk() to get all memory segments (waveforms) at once.
+-Does NOT support Aggregated downsampling
+
+PicoScope4000ExampleRapidBlock.vi
+-Calls ps4000GetVaules() in a loop to get all memory segments (waveforms)
+-Does support Aggregated downsampling
