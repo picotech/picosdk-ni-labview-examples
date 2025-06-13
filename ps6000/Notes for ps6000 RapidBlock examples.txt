@@ -1,0 +1,10 @@
+Note there are two RapidBlock examples-
+
+PicoScope6000ExampleRapidBlockBulkOverlapped.vi
+-Calls ps6000GetVaulesBulk() to get all memory segments (waveforms) at once.
+-Does NOT support Aggregated downsampling
+-Uses ps6000SetDataBufferBulk() to set max "Max Buffer Pointers" only.
+
+PicoScope6000ExampleRapidBlock.vi
+-Calls ps6000SetDataBuffers() and ps6000GetVaules() in a loop to get all memory segments (waveforms)
+-Does support Aggregated downsampling
