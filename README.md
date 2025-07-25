@@ -10,11 +10,11 @@ Examples are provided as a set of LabVIEW vi and llb files grouped by driver nam
 
 #### Microsoft Windows
 
-* National Instruments LabVIEW Base Development System 9.0 or later (32-bit or 64-bit)
+* National Instruments LabVIEW Base Development System 10 or later (32-bit or 64-bit)
 
 **Notes:** 
 
-* Most examples can be opened with LabVIEW Base Development System 8.5 versions.
+* Some files are saved with LabVIEW Base Development System 8.5 versions.
 
 ### Example dependencies
 
@@ -23,7 +23,8 @@ If downloading files or the repository zip file you will need to download the co
 If using Git the command is-
 `git submodule update --init --recursive`
 
-**Zip Download files:**
+#### Zip Download files;
+
 Main - https://github.com/picotech/picosdk-ni-labview-examples/archive/refs/heads/master.zip
 Shared - https://github.com/picotech/picosdk-ni-labview-shared/archive/refs/heads/master.zip
 
